@@ -1,0 +1,34 @@
+{
+  "name": "vectorclock",
+  "version": "0.0.0",
+  "description": "A simple implementation of vector clocks in Javascript.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --ui exports --reporter spec --slow 2000ms --bail test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixu/vectorclock.git"
+  },
+  "keywords": [
+    "vector",
+    "clock",
+    "vector",
+    "logical",
+    "clock",
+    "time",
+    "version",
+    "versioning",
+    "conflict",
+    "compare",
+    "distributed"
+  ],
+  "author": "Mikito Takada <mikito.takada@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "~1.7.0"
+  }
+}
